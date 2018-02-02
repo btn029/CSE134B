@@ -1,0 +1,18 @@
+.navbar {
+	background-color: #2b2354;
+	color: white; 
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0px;
+}
+
+li{
+	display: inline;
+	float: right;
+	padding: 10px;
+}
