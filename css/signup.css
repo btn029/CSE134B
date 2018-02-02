@@ -20,8 +20,8 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0.7em;
-  display: block;
-  width: 10%;
-  color: black;
-  background-color: rgb(230, 242, 60);
+  display: inline-block;
+  width: 10%;    
+  color: floralwhite;
+  background-color: #2b2354;
 }

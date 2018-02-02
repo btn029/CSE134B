@@ -1,5 +1,8 @@
 .profile-picture{
-	float: left;
+    margin-right: auto;
+	margin-left: auto;
+    float: left;
+    padding: .8cm;
 }
 
 .container {
@@ -20,8 +23,16 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0.7em;
-  display: block;
+  display: inline-block;
   width: 10%;
-  color: black;
-  background-color: rgb(230, 242, 60);
+  color: floralwhite;
+  background-color: #2b2354;
+}
+header{
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
 }
