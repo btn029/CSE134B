@@ -16,3 +16,8 @@ li{
 	float: right;
 	padding: 10px;
 }
+a{
+    display: inline;
+    float:right;
+    padding: 10px;
+}
