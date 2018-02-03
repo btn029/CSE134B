@@ -19,6 +19,14 @@
 	font-weight: bold;
 }
 
+.availability{
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .btn {
   margin-right: auto;
   margin-left: auto;
