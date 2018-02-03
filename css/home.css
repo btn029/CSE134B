@@ -1,0 +1,47 @@
+h1, h2{
+	padding: 20px;
+}
+
+.content {
+    width: 40%s;
+	padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+.btn{
+  display: block;
+  width: 10%;
+  color: white;
+  background-color: #2b2354;
+}
+
+.appts {
+    width: 40%s;
+	border: 3px solid black;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.appts img {
+    margin-right: 15px;
+    float: left;
+}
+
+.btn2{
+    background-color: #2b2354; 
+	width: 100%;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.gallery{
+	border: 3px solid black; 
+	overflow: hidden; 
+	background-color: white;
+}
