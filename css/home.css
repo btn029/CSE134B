@@ -11,6 +11,8 @@ h1, h2{
 .content img {
     margin-right: 15px;
     float: left;
+	width: 30%;
+	height: 30%;
 }
 
 .btn{
@@ -30,14 +32,17 @@ h1, h2{
 .appts img {
     margin-right: 15px;
     float: left;
+	width: 10%;
+	height: 8%;
 }
 
 .btn2{
     background-color: #2b2354; 
-	width: 100%;
+	width: 20%;
     color: white; /* White text */
     cursor: pointer; /* Pointer/hand icon */
     display: block; /* Make the buttons appear below each other */
+	float: right;
 }
 
 .gallery{
@@ -45,3 +50,8 @@ h1, h2{
 	overflow: hidden; 
 	background-color: white;
 }
+
+.gallery img{
+	width: 10%; 
+	height: 8%;
+} 
