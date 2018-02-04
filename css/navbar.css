@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+.logo{
+	float: left;
+}
+
 body{
 	margin: 0px;
 }
@@ -15,9 +19,4 @@ li{
 	display: inline;
 	float: right;
 	padding: 10px;
-}
-a{
-    display: inline;
-    float:right;
-    padding: 10px;
 }
