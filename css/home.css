@@ -3,7 +3,7 @@ h1, h2{
 }
 
 .content {
-    width: 40%s;
+    width: 80%;
 	padding: 20px;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@ h1, h2{
 }
 
 .appts {
-    width: 40%s;
+    width: 100%;
 	border: 3px solid black;
     padding: 20px;
     overflow: hidden;
