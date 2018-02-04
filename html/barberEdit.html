@@ -2,75 +2,82 @@
 <html lang="en">
   <head>
       
-     <!--Navbar--> 
-    <div class = "navbar">
-	<ul>
-		<img src= "https://i.imgur.com/IQe9xtg.png" id="eclips-text"/>
-		<li>Help</li>
-        <li>Log Out</li>
-	</ul>
-	</div>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Edit Barber Info</title>
 
     <!--import CSS-->
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/edit.css" />
   </head>
-  <header>
-    Edit Barber Information
-  </header>
+    
     
   <body>
-  <div class = "profile-picture">
-	<img src= "https://i.imgur.com/sBMNaag.jpg" id="profile-picture"/>
-    <div class="availability">
-        <label for="availability">Availability</label>
-        <textarea class="availability" class="form-control" id="availability" placeholder="Available Times" style = "height:100px; width: 200px;"></textarea>
+      <!--Navbar--> 
+    <div class = "navbar">
+	   <ul>
+            <li>Help</li>
+            <li>Log Out</li>
+	   </ul>
+    <div class = "logo">
+        <img src= "https://i.imgur.com/IQe9xtg.png" id="eclips-text" alt="eclipsword"/>
+    </div>  
     </div>
-  </div>
+    <div class = "description">
+        Edit Barber Info
+    </div>  
+    <div class = "profile-picture">
+        <img src= "https://i.imgur.com/sBMNaag.jpg" id="profile-picture" alt="Profile Picture"/>
+        <div class="availability">
+            <label for="availability">Availability</label>
+            <textarea class="availability" id="availability" placeholder="Available Times" style = "height:100px; width: 200px;"></textarea>
+        </div>
+    </div>
       <!--Entry boxes for each category-->
-  <div class="container" style="color: black">
+    <div class="container" style="color: black">
 		<div class="form-group">
-			<label for="firstName">First Name</label>
-			<input type="firstname" class="form-control" id="firstNameEntry" placeholder="First Name"/>
+			<label>First Name</label>
+			<input type="text" class="form-control" id="firstNameEntry" placeholder="First Name"/>
 		</div>
 		<div class="form-group">
-			<label for="lastName">Last Name</label>
-			<input type="lastname" class="form-control" id="lastNameEntry" placeholder="Last Name"/>
+			<label>Last Name</label>
+			<input type="text" class="form-control" id="lastNameEntry" placeholder="Last Name"/>
 		</div>
 		<div class="form-group">
-			<label for="email">Email</label>
-			<input type="email" class="form-control" id="emailEntry" placeholder="Email Address"/>
+			<label>Email</label>
+			<input type="text" class="form-control" id="emailEntry" placeholder="Email Address"/>
 		</div>
 		<div class="form-group">
-			<label for="lastName">Password</label>
-			<input type="password" class="form-control" id="passwordEntry" placeholder="Password"/>
+			<label>Password</label>
+			<input type="text" class="form-control" id="passwordEntry" placeholder="Password"/>
 		</div>
         <div class="form-group">
-			<label for="phone">Phone Number</label>
-			<input type="phone" class="form-control" id="phoneNumEntry" placeholder="(XXX)XXX-XXXX"/>
+			<label>Phone Number</label>
+			<input type="text" class="form-control" id="phoneNumEntry" placeholder="(XXX)XXX-XXXX"/>
 		</div>
         <div class="form-group">
-			<label for="street">Street</label>
-			<input type="street" class="form-control" id="streetEntry" placeholder="Street"/>
+			<label>Street</label>
+			<input type="text" class="form-control" id="streetEntry" placeholder="Street"/>
 		</div>
         <div class="form-group">
-            <label for="city">City</label>
-            <input type="city" class="form-control" id="cityEntry" placeholder="City"/>
+            <label>City</label>
+            <input type="text" class="form-control" id="cityEntry" placeholder="City"/>
         </div>
         <div class="form-group" style="text-align:center;">
-            <label for="state">State</label>
-            <input type ="state" class="form-control" id="stateEntry" placeholder="State"/>
-            <label for="zipCode">Zip Code</label>
-            <input type="zipcode" class="form-control" id="zipCodeEntry" placeholder="XXXXX"/>
+            <label>State</label>
+            <input type ="text" class="form-control" id="stateEntry" placeholder="State"/>
+            <label>Zip Code</label>
+            <input type="text" class="form-control" id="zipCodeEntry" placeholder="XXXXX"/>
         </div>
 
 		<!--Create Account Button-->
 		<div style= "text-align:center;">
-            <button id="saveSettingsButton" type="create" class="btn">Save Settings</button>
-            <button id="saveSettingsButton" type="create" class="btn">Cancel</button>
+            <button id="submitSettingsButton" type="submit" class="btn">Save Settings</button>
+            <button id="resetSettingsButton" type="reset" class="btn">Cancel</button>
         </div>
         
-      </div>			
+    </div>			
   </body>
   
 </html>
