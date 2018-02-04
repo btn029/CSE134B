@@ -6,21 +6,17 @@ h1{
 	text-align: center;
 }
 .rcorners {
+    float: left;
     border-radius: 25px;
     border: 2px solid #2b2354;
     padding: 20px; 
-    width: 1000px;
-    height: 150px;    
 }
 .prof {
-	float: left;
     border-radius: 25px;
-    padding: 20px; 
     width: 100px;
     height: 100px;  
 }
 .cancel {
-	float: right;
     background-color: #ff0000;
     border: none;
     color: white;
@@ -33,7 +29,6 @@ h1{
     cursor: pointer;
 }
 .view {
-	float: right;
     background-color: #2b2354;
     border: none;
     color: white;
@@ -47,4 +42,22 @@ h1{
 }
 .appt {
 	float: right;
+}
+.left {
+    float:left;
+    width: 33%;
+}
+.right {
+    float:left;
+    width: 33%;
+}
+.main {
+    float:left;
+    width: 33%;
+}
+
+@media (max-width:800px){
+    .left, .main, .right {
+        width:100%;
+    }
 }
