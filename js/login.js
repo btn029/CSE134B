@@ -18,12 +18,26 @@ $(function(){
     
 function login() {
     var barber = document.getElementById("barber").checked;
-    if(barber == true) {
-        window.location.href = "barberHome.html"
-    }
-    else {
-        window.location.href = "clientHome.html"
-    }
+    var client = document.getElementById("client").checked;
+    var inputUsername= document.getElementById("usernameEntry");
+    var inputPassword= document.getElementById("passwordEntry");
+
+            if (inputUsername && inputUsername.value && inputPassword && inputPassword.value && barber == true) {
+                console.log("match");
+                window.location.href = "barberHome.html";
+            }
+    
+            else if (inputUsername && inputUsername.value && inputPassword && inputPassword.value && client == true) {
+                console.log("match");
+                window.location.href = "clientHome.html";
+            }
+    
+            else
+            {
+                console.log("no match");
+                alert("Please enter a Username and Password.")
+            }
+
 }
 
 function redirectSignUp() {
