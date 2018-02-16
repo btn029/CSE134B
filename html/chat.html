@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Chat</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+                <!--import CSS-->
+                <link rel="stylesheet" href="../css/navbar.css" />
+                <link rel="stylesheet" href="../css/chat.css" />
+                
+                
+                </head>
+    
+    <body>
+        <!--NavBar-->
+        <div class = "navbar">
+            <ul>
+                <li>
+                    <a href="login.html">Log Out</a>
+                </li>
+                <li>
+                    <a href="appointments.html">Appointments</a>
+                </li>
+                <li>
+                    <a href="barberEdit.html">Edit Profile</a>
+                </li>
+                <li>
+                    Help
+                </li>
+            </ul>
+            <div class = "logo">
+                <a href="clienthome.html" id="clientHome">
+                    <img src= "https://i.imgur.com/IQe9xtg.png" id="eclips-text" alt="eclipsword"/>
+                </a>
+            </div>
+        </div>
+        <div class = "chatBox">
+            <div class = "textField">
+                <div class = "type_here">
+                    <input class="comment" id="myTxtbox" type="text" placeholder="Type a message...">
+                </div>
+                <div class = "button_here">
+                    <button class="btn2" id="myBtn" onclick="appendCommentClient()" type="button">Send</button>
+                </div>
+            </div>
+            <div class = "display">
+                <p id = "msgs:">Chat here:</p>
+            </div>
+        </div>
+        
+        
+        <script src="../js/chat.js"></script>
+    </body>
+    
+</html>
