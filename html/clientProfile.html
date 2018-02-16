@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Client Profile</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+   <!--import CSS-->
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+  
+  
+  </head>
+  
+  <body>
+    <!--NavBar-->
+    <div class = "navbar">
+        <ul>
+            <li>
+                <a href="login.html">Log Out</a>
+            </li>
+            <li>
+                <a href="appointments.html">Appointments</a>
+            </li>
+            <li>            
+                <a href="barberEdit.html">Edit Profile</a>
+            </li>
+            <li>
+                Help
+            </li>
+        </ul>
+        <div class = "logo">
+            <a href="clienthome.html" id="clientHome">
+                <img src= "https://i.imgur.com/IQe9xtg.png" id="eclips-text" alt="eclipsword"/>
+            </a>
+        </div>
+    </div>
+
+	
+  
+  <h1> Profile </h1>
+  
+  <div class="content">
+    <img src = "https://i.imgur.com/nw3VtF2.jpg" id = "clientpic" alt="clientpic">
+    Brian Nguyen<br/>
+	(123)456-7890<br/>
+	client@yahoo.com<br/>
+	<br/>
+	42 Wallaby Wy<br/>
+	Sydney, Austrailia<br/>
+	92122
+	
+	
+  </div>​
+  
+
+ 
+  
+  <h2> Recent Appointments </h2>
+  
+  <div class="appts">
+	<!--<img src = "../clientpic.jpg" id = "clientpic" width = "10%", height = "8%">-->
+	<img src= "https://i.imgur.com/6X79ZNj.png" alt="logo">
+	<button class="btn2">Report</button><br/><br/><br/><br/><br/>
+	<input class="comment" id="myTxtbox" type="text" placeholder="Leave Review"><br/><br/>
+	<button class="btn2" id="myBtn" type="button">Submit Review</button><br/><br/>
+	<input class="comment" id="number" type="text" placeholder="Rate the barber from 1-5"><br/><br/>
+	<button class="btn2" id="rating" onclick="saveData()" type="button">Submit Rating</button><br/>
+	<p id="msgs">Comments and Ratings:</p>
+	
+	
+  </div>
+	<!--Text: <input id="myTxtbox" type="text" value="Mickey"><br>
+
+	<button id="myBtn" type="button">Submit</button>
+ 
+	<p id="msgs"">Text</p>-->
+	
+	<script src="../js/entry.js"></script>
+	<script src="../js/listEntry.js"></script>
+  </body>
+  
+ </html>
