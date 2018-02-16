@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/menu.css" />
     <link rel="stylesheet" href="../css/login.css" />
 	<link rel="stylesheet" href="../css/navbar.css" />
+    <script src="../js/login.js"></script>
   </head>
 
   <body>
@@ -30,11 +31,11 @@
 		<div class ="radio-button">
 		<b>Check One Only:</b><br/>
 		<label>
-                <input type="radio" name="group1" value="Barber">
+                <input type="radio" name="rad" id="barber" checked="checked" data-waschecked="true"/>
                 Barber
          </label>
 		 <label>
-                <input type="radio" name="group2" value="Client">
+                <input type="radio" name="rad" id="client"/>
                 Client
          </label><br/>
 		 </div>
@@ -49,9 +50,9 @@
 					<label for="passwordEntry">Password</label>
 					<input type="password" class="form-control" id="passwordEntry" placeholder="Password"/>
 				</div>
-				<button type="submit" class="btn">Login</button>
+				<button type="submit" class="btn" onclick="login()">Login</button>
 		
-			<button id="signupBtn" type="submit" class="btn">Sign up</button>
+			    <button id="signupBtn" type="submit" class="btn" onclick="redirectSignUp()">Sign up</button>
       <div id="forgotPassHolder">
         <a id="forgotPassLink" href="resetPassword.html">Forgot password?</a>
       </div>
@@ -59,3 +60,4 @@
 
   </body>
 </html>
+
