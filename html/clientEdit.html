@@ -10,6 +10,7 @@
     <!--import CSS-->
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/edit.css" />
+    <script src="../js/home.js"></script>
   </head>
  
     
@@ -82,8 +83,8 @@
 				
 		<!--Create Account Button-->
 		<div style= "text-align:center;">
-            <button class="btn">Save Settings</button>
-            <button class="btn">Cancel</button>
+            <button id="submitSettingsButton" type="submit" class="btn" onclick="redirectClientHome();">Save Settings</button>
+            <button id="resetSettingsButton" type="reset" class="btn" onclick="redirectClientHome();">Cancel</button>
         </div>
         
       </div>			
