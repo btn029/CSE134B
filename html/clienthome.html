@@ -9,7 +9,7 @@
    <!--import CSS-->
   <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="stylesheet" href="../css/home.css" />
-  <script src="../js/home.js"></script>
+  
   
   </head>
   
@@ -24,10 +24,7 @@
                 <a href="appointments.html">Appointments</a>
             </li>
             <li>            
-                <a href="barberList.html">Barbers</a>
-            </li>
-            <li>            
-                <a href="clientEdit.html">Edit Profile</a>
+                <a href="barberEdit.html">Edit Profile</a>
             </li>
             <li>
                 Help
@@ -55,8 +52,10 @@
 	92122
 	
 	
-	<button class="btn" onclick="redirectClientEdit()">Edit Profile</button>
+	<button class="btn">Edit Profile</button>
   </div>​
+  
+
  
   
   <h2> Recent Appointments </h2>
@@ -65,11 +64,14 @@
 	<!--<img src = "../clientpic.jpg" id = "clientpic" width = "10%", height = "8%">-->
 	<img src= "https://i.imgur.com/0c9Cfwd.jpg" alt="appts">
 	<p> Jimes Croe </p><br/><br/>
-	<b>Rating: 4/5</b>
-	<button class="btn2">Leave Comment</button><br/><br/>
-	<button class="btn2">Report</button>
+	<h3 id="rate">Rating: 4/5</h3>
+	</div>
+
+   <h2> Reviews </h2>
 	
-  </div>
+	<!--Import JS-->
+	<script src="../js/entry.js"></script>
+	<script src="../js/listEntry.js"></script>
   </body>
   
  </html>
