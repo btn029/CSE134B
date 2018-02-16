@@ -9,7 +9,9 @@
    <!--import CSS-->
   <link rel="stylesheet" href="../css/navbar.css" />
   <link rel="stylesheet" href="../css/home.css" />
-  
+  <script src="../js/clientEdit.js"></script>
+  <script src="../js/clientHome.js"></script>
+  <script src="../js/home.js"></script>
   
   </head>
   
@@ -46,21 +48,19 @@
 	
   
   <h1> Home </h1>
-  
   <div class="content">
     <img src = "https://i.imgur.com/nw3VtF2.jpg" id = "clientpic" alt="clientpic">
-    Brian Nguyen<br/>
-	(123)456-7890<br/>
-	client@yahoo.com<br/>
-	<br/>
-	42 Wallaby Wy<br/>
-	Sydney, Austrailia<br/>
-	92122
+    <div id="firstN" style="display: inline-block;">Brian</div><div style="display:inline-block;">&nbsp;</div><div id="lastN" style="display:inline-block;">Nguyen
+    <div id="phoneNum">(123)456-7890</div>
+    <div id="email">client@yahoo.com</div>
+    <div id="street">42 Wallaby Wy</div>
+      <div id="city" style="display: inline-block">Sydney</div><div style="display: inline-block">, &nbsp;</div><div id="state" style="display: inline-block">Austrailia</div>
+    <div id="zip">92122</div>
 	
 	
-	<button class="btn">Edit Profile</button>
+	<button class="btn" onclick="redirectClientEdit();">Edit Profile</button>
+    <button class="btn" onclick="update();">Update</button>
   </div>​
-  
 
  
 
