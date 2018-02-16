@@ -21,9 +21,6 @@
                 <a href="login.html">Log Out</a>
             </li>
             <li>
-                <a href="barberList.html">Find Barbers</a>
-            </li>
-            <li>
                 <a href="appointments.html">Appointments</a>
             </li>
             <li>            
@@ -60,25 +57,27 @@
 
  
   
-  <h2> Recent Appointments </h2>
+  <h2> Feedback </h2>
   
   <div class="appts">
 	<!--<img src = "../clientpic.jpg" id = "clientpic" width = "10%", height = "8%">-->
 	<img src= "https://i.imgur.com/6X79ZNj.png" alt="logo">
 	<button class="btn2">Report</button><br/><br/><br/><br/><br/>
 	<input class="comment" id="myTxtbox" type="text" placeholder="Leave Review"><br/><br/>
-	<button class="btn2" id="myBtn" type="button">Submit Review</button><br/><br/>
-	<input class="comment" id="number" type="text" placeholder="Rate the barber from 1-5"><br/><br/>
-	<button class="btn2" id="rating" onclick="saveData()" type="button">Submit Rating</button><br/>
+	<button class="btn2" id="myBtn" onclick="appendCommentClient()" type="button">Submit Review</button><br/><br/>
+	<input class="comment" id="number" type="text" placeholder="Rate the barber from 1-5/5 .ie 5/5"><br/><br/>
+	<button class="btn2" id="rating" onclick="saveDataClient()" type="button">Submit Rating</button><br/>
 	<p id="msgs">Comments and Ratings:</p>
-	
-	
-  </div>
-	<!--Text: <input id="myTxtbox" type="text" value="Mickey"><br>
+   </div>
+   
+     <h2> Rating: </h2>
+  
+  <div class="appts">
+	<!--<img src = "../clientpic.jpg" id = "clientpic" width = "10%", height = "8%">-->
+	<br/>
+	<h1 id="rate">N/A</h1>
+	</div>
 
-	<button id="myBtn" type="button">Submit</button>
- 
-	<p id="msgs"">Text</p>-->
 	
 	<script src="../js/entry.js"></script>
 	<script src="../js/listEntry.js"></script>
