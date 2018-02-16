@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Barber Profile</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+   <!--import CSS-->
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+  
+  
+  </head>
+  
+  <body>
+    <!--NavBar-->
+    <div class = "navbar">
+        <ul>
+            <li>
+                <a href="login.html">Log Out</a>
+            </li>
+            <li>
+                <a href="appointments.html">Appointments</a>
+            </li>
+            <li>            
+                <a href="barberEdit.html">Edit Profile</a>
+            </li>
+            <li>
+                Help
+            </li>
+        </ul>
+        <div class = "logo">
+            <a href="barberhome.html" id="barberHome">
+                <img src= "https://i.imgur.com/IQe9xtg.png" id="eclips-text" alt="eclipsword"/>
+            </a>
+        </div>
+    </div>
+
+	
+  
+  <h1> Profile </h1>
+  
+  <div class="content">
+    <img src = "https://i.imgur.com/DtSgrYZ.jpg" id ="barberpic" alt = "barberpic"/>
+    Jaymes Laybron<br>
+	(123)456-7890<br/>
+	client@yahoo.com<br>
+	<br/>
+	<b>Available 5:00pm - 7:00pm</b>
+	<br><br/>
+	43 Wallaby Wy<br>
+	Sydney, Austrailia<br/>
+	92122
+	
+  </div>​
+  <h2> Haircut Gallery </h2>
+ <div class = "gallery">
+	<img src = "https://i.imgur.com/EkThlu5.jpg" alt="pic1">
+	<img src = "https://i.imgur.com/wW61qvY.jpg" alt="pic2">
+	<img src = "https://i.imgur.com/dr3bYMd.png" alt="pic3">
+ </div> 
+  
+  <h2> Feedback </h2>
+  
+  <div class="appts">
+	<img src= "https://i.imgur.com/6X79ZNj.png" alt="logo">
+	<button class="btn2">Report</button><br/><br/><br/><br/><br/>
+	<input class="comment" id="myTxtbox" type="text" placeholder="Leave Review"><br/><br/>
+	<button class="btn2" id="myBtn" type="button">Submit Review</button><br/><br/>
+	<input class="comment" id="number2" type="text" placeholder="Rate the barber from 1-5/5 .ie 5/5"><br/><br/>
+	<button class="btn2" id="rating" onclick="saveDataBarber()" type="button">Submit Rating</button><br/>
+	<p id="msgs">Comments and Ratings:</p>
+   </div>
+   
+     <h2>Rating: </h2>
+  
+  <div class="appts">
+	<br/>
+	<h1 id="rate2">N/A</h1>
+  </div>
+
+	
+	<script src="../js/barberEntry.js"></script>
+	<script src="../js/barberlistEntry.js"></script>
+  </body>
+  
+ </html>
