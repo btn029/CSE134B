@@ -36,6 +36,7 @@ h1, h2{
 	height: 8%;
 }
 
+/*Report and Leave Comment button*/
 .btn2{
     background-color: #2b2354; 
 	width: 20%;
@@ -43,6 +44,12 @@ h1, h2{
     cursor: pointer; /* Pointer/hand icon */
     display: block; /* Make the buttons appear below each other */
 	float: right;
+}
+/*comment box*/
+.comment{
+	float: right;
+	display: block;
+	width: 20%;
 }
 
 .gallery{
