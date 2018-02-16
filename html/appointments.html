@@ -37,13 +37,38 @@
     </div>
 
         <h1> Appointments </h1>
-    <div>
-		<div class = "rcorners">
+    <div id = "apptPage">
+		<div class = "rcorners" id = "appt1">
             <div class = "left"><img class = prof src= "https://i.imgur.com/0c9Cfwd.jpg" id="apptex" alt="picture"/></div>
-            <div class = "main"><p>Brian Vu</p><p>2/14/18 4:00PM</p></div>
-            <div class = "right"><button class = "cancel"> Cancel </button></div>
+            <div class = "main"><p>Brian Vu</p><p>2/14/19 4:00PM</p></div>
+            <div class = "right">
+                <button id = "myBtn" class = "cancel"> Cancel </button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <p>Are you sure you want to cancel?</p>
+                        <input type="button" value="Confirm" onClick="removeElement('apptPage','appt1');">
+                    </div>
+                </div>
+            </div>
 		</div>
+
+        <div class = "rcorners" id = "appt2">
+            <div class = "left"><img class = prof src= "https://i.imgur.com/DtSgrYZ.jpg" id="apptex" alt="picture"/></div>
+            <div class = "main"><p>Brian Wu</p><p>2/14/20 4:00PM</p></div>
+            <div class = "right">
+                <button id = "myBtn2" class = "cancel"> Cancel </button>
+                <div id="myModal2" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <p>Are you sure you want to cancel?</p>
+                        <input type="button" value="Confirm" onClick="removeElement('apptPage','appt2');">
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     </body>
-    
+    <script src="../js/appointments.js"></script>
 </html>
