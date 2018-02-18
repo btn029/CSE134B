@@ -7,6 +7,10 @@ function redirectBarberHome() {
     window.location.href= "barberHome.html";
 }
 
+function redirectBarberProfile() {
+    window.location.href= "barberProfile.html";
+}
+
 function redirectClientHome() {
     window.location.href = "clientHome.html";
 }

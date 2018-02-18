@@ -2,32 +2,50 @@
 /*global document: false*/
 /*global window: false*/
 function saveEdits() {
-	var firstNameInput = document.getElementById("firstNameEntry");
-	localStorage.setItem("firstName", firstNameInput.value);
+    var firstNameInput = document.getElementById("firstNameEntry");
+	if(firstNameInput.value){
+        localStorage.setItem("clientFName", firstNameInput.value);
+    }
         
     var lastNameInput = document.getElementById("lastNameEntry");
-	localStorage.setItem("lastName", lastNameInput.value);
-    
+	if(lastNameInput.value){
+        localStorage.setItem("clientLName", lastNameInput.value);
+    }
+        
     var emailInput = document.getElementById("emailEntry");
-	localStorage.setItem("email", emailInput.value);
-    
+	if(emailInput.value){
+        localStorage.setItem("clientEmail", emailInput.value);
+    }
+        
     var passwordInput = document.getElementById("passwordEntry");
-	localStorage.setItem("password", passwordInput.value);
-    
+    if(passwordInput.value){
+        localStorage.setItem("clientPassword", passwordInput.value);
+    }
+
     var phoneNumInput = document.getElementById("phoneNumEntry");
-	localStorage.setItem("phoneNum", phoneNumInput.value);
+	if(phoneNumInput.value){
+        localStorage.setItem("clientPhoneNum", phoneNumInput.value);
+    }
     
     var streetInput = document.getElementById("streetEntry");
-	localStorage.setItem("street", streetInput.value);
+	if(streetInput.value){
+        localStorage.setItem("clientStreet", streetInput.value);
+    }
     
     var cityInput = document.getElementById("cityEntry");
-	localStorage.setItem("city", cityInput.value);
+	if(cityInput.value){
+        localStorage.setItem("clientCity", cityInput.value);
+    }
     
     var stateInput = document.getElementById("stateEntry");
-	localStorage.setItem("state", stateInput.value);
+	if(stateInput.value){
+        localStorage.setItem("clientState", stateInput.value);
+    }
     
     var zipInput = document.getElementById("zipCodeEntry");
-	localStorage.setItem("zip", zipInput.value);
-
+	if(zipInput.value){
+        localStorage.setItem("clientZip", zipInput.value);
+    }
     window.location.href = "clienthome.html";
 }
+

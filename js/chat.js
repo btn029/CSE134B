@@ -4,5 +4,5 @@ document.getElementById("myBtn").addEventListener("click", function(){
                                                   div.style.height = "50px";
                                                   div.style.border = "1px solid #000000";
                                                   div.innerHTML = document.getElementById("myTxtbox").value;
-                                                  document.getElementById("msgs").appendChild(div);
+                                                  document.getElementById("msgs:").appendChild(div);
                                                   });
